@@ -275,5 +275,8 @@ As we can see, the /dev/mapper/debian--vg-lv--var as 41G as we just configured
 Bibliografy:
 
 https://www.redhat.com/sysadmin/resize-lvm-simple
+
 https://www.baeldung.com/linux/extend-logical-extended-partitions-fdisk
+
 https://theducks.org/2009/11/expanding-lvm-partitions-in-vmware-on-the-fly/
+
