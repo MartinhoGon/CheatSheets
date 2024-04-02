@@ -42,9 +42,9 @@ $ sudo fdisk /dev/sda
 Type 'd', the command to delete partions, and select nº '2'  to delete the /dev/sda2
 This deletes de /dev/sda2 and the associated LVM /dev/sda5
 
-```
 This should be the output:
 
+```
 Command (m for help): d
 Partition number (1,2,5, default 5): 2
 
@@ -200,7 +200,7 @@ List the LV in the machine and choose the one to be resized
 $ sudo lvdisplay
 ```
 
-In this case, I want to resize the /dev/debian-vg/lv-var LV
+In this case, I want to resize the /dev/debian-vg/lv-var LV to 100% of the free space (30GB)
 To achieve this run the following command:
 
 ```
