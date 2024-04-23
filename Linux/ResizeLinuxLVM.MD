@@ -30,7 +30,7 @@ Device     Boot   Start       End   Sectors  Size Id Type
 /dev/sda5       1077248 104855551 103778304 49.5G 8e Linux LVM
 
 ```
-We have a 50GB Extended partition with the LVM, bt the disk size is 80GB
+We have a 50GB Extended partition with the LVM, but the disk size is 80GB
 The partition that should be deleted is the /dev/sda2
 
 
